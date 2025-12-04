@@ -16,11 +16,6 @@ A complete backend API for the Car Service Station application built with Node.j
 - 🗄️ Database with Sequelize ORM
 - 📊 Logging with Winston
 
-## Prerequisites
-
-- Node.js 18+
-- MySQL 8.0+
-- npm or yarn
 
 ## Installation
 
@@ -28,3 +23,28 @@ A complete backend API for the Car Service Station application built with Node.j
    ```bash
    git clone <repository-url>
    cd car-service-station-app/backend
+
+
+
+   # 🚗 Car Service Station Backend API
+
+A complete backend API for the Car Service Station application built with Node.js, Express, MySQL, and Sequelize ORM.
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 18+ installed
+- MySQL 8.0+ installed and running
+- Git (for cloning)
+
+### 1. Clone & Setup
+```bash
+# Clone the repository
+git clone <repository-url>
+cd backend
+
+# Install dependencies
+npm install
+
+# Setup environment
+cp .env.example .env

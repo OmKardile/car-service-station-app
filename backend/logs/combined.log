@@ -1,0 +1,114 @@
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 16:34:12"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 16:34:12"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 16:34:12"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:34:13"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:34:13"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 16:34:13"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 16:35:38"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 16:35:38"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 16:35:38"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:35:38"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:35:38"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 16:35:38"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 16:35:55"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 16:35:55"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 16:35:55"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:35:55"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:35:55"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 16:35:55"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 16:36:56"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 16:36:56"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 16:36:56"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:36:56"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:36:56"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 16:36:56"}
+{"level":"info","message":"GET /health - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:37:52"}
+{"level":"info","message":"POST /api/auth/register - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:38:52"}
+{"level":"error","message":"Registration error: secretOrPrivateKey must have a value","service":"car-service-api","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at JWTService.generateAccessToken (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\utils\\jwt.js:5:16)\n    at register (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\controllers\\authController.js:45:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-12-04 16:38:53"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 16:40:55"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 16:40:55"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 16:40:55"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:40:55"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:40:55"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 16:40:55"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 16:42:07"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 16:42:07"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 16:42:07"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:42:07"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:42:07"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 16:42:07"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 16:50:33"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 16:50:33"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 16:50:33"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:50:33"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:50:33"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 16:50:33"}
+{"level":"info","message":"POST /api/auth/login - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:50:38"}
+{"level":"error","message":"Login error: secretOrPrivateKey must have a value","service":"car-service-api","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at JWTService.generateAccessToken (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\utils\\jwt.js:5:16)\n    at login (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\controllers\\authController.js:118:38)","timestamp":"2025-12-04 16:50:38"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 16:52:45"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 16:52:45"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 16:52:45"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:52:46"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:52:46"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 16:52:46"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 16:53:49"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 16:53:49"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 16:53:49"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:53:49"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:53:49"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 16:53:49"}
+{"level":"info","message":"SIGINT received. Closing server gracefully...","service":"car-service-api","timestamp":"2025-12-04 16:54:06"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 16:54:09"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 16:54:09"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 16:54:09"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:54:09"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:54:09"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 16:54:09"}
+{"level":"info","message":"POST /api/auth/login - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:54:14"}
+{"level":"info","message":"User logged in: test@example.com","service":"car-service-api","timestamp":"2025-12-04 16:54:14"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 16:55:15"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 16:55:15"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 16:55:15"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:55:15"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:55:15"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 16:55:15"}
+{"level":"info","message":"GET /api/health - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:56:31"}
+{"level":"info","message":"GET /api/services - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:56:31"}
+{"level":"info","message":"GET /api/stations - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:56:31"}
+{"level":"info","message":"POST /api/auth/login - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:56:31"}
+{"level":"info","message":"User logged in: test@example.com","service":"car-service-api","timestamp":"2025-12-04 16:56:31"}
+{"level":"info","message":"GET /api/auth/profile - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:56:31"}
+{"level":"info","message":"POST /api/auth/logout - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:56:32"}
+{"level":"info","message":"User logged out: 5","service":"car-service-api","timestamp":"2025-12-04 16:56:32"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 16:58:42"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 16:58:42"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 16:58:42"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:58:42"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:58:42"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 16:58:42"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 16:59:02"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 16:59:02"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 16:59:02"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:59:02"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:59:02"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 16:59:02"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 16:59:07"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 16:59:07"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 16:59:07"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:59:07"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 16:59:07"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 16:59:07"}
+{"level":"info","message":"GET /api/health - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:59:09"}
+{"level":"info","message":"GET /api/services - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:59:09"}
+{"level":"info","message":"GET /api/stations - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:59:09"}
+{"level":"info","message":"POST /api/auth/login - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:59:10"}
+{"level":"info","message":"User logged in: test@example.com","service":"car-service-api","timestamp":"2025-12-04 16:59:10"}
+{"level":"info","message":"GET /api/auth/profile - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:59:10"}
+{"level":"info","message":"POST /api/auth/logout - IP: ::1","service":"car-service-api","timestamp":"2025-12-04 16:59:10"}
+{"level":"info","message":"User logged out: 5","service":"car-service-api","timestamp":"2025-12-04 16:59:10"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-04 18:41:57"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-04 18:41:57"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-04 18:41:57"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 18:41:58"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 18:41:58"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 18:41:58"}

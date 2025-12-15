@@ -24,6 +24,14 @@ module.exports = (sequelize, DataTypes) => {
         isEmail: true
       }
     },
+    adminId: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      references: {
+        model: 'users',
+        key: 'id'
+      }
+    },
     operatingHours: {
       type: DataTypes.STRING(100),
       allowNull: true
@@ -38,6 +46,10 @@ module.exports = (sequelize, DataTypes) => {
   });
 
   Station.associate = function(models) {
+    Station.belongsTo(models.User, {
+      foreignKey: 'adminId',
+      as: 'admin'
+    });
     Station.hasMany(models.StationServicePrice, {
       foreignKey: 'stationId',
       as: 'servicePrices'

@@ -41,10 +41,7 @@ const limiter = rateLimit({
 app.use(helmet());
 app.use(compression());
 app.use(limiter);
-app.use(cors({
-  origin: process.env.CLIENT_URL || "http://localhost:8081",
-  credentials: true
-}));
+app.use(cors()); // Allow all origins for development
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use('/uploads', express.static(uploadsDir));
@@ -62,7 +59,7 @@ DatabaseService.connect()
     
     // Sync database (use with caution in production)
     if (process.env.NODE_ENV !== 'production') {
-      DatabaseService.sync({ alter: false }).catch(err => {
+      DatabaseService.sync({ alter: true }).catch(err => {
         logger.warn('Database sync warning:', err.message);
       });
     }

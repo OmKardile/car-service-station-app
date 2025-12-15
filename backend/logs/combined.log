@@ -112,3 +112,246 @@
 {"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 18:41:58"}
 {"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-04 18:41:58"}
 {"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-04 18:41:58"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 15:18:00"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 15:18:00"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 15:18:00"}
+{"level":"error","message":"Database connection failed:","name":"SequelizeConnectionRefusedError","original":{"code":"ECONNREFUSED","fatal":true},"parent":{"code":"ECONNREFUSED","fatal":true},"service":"car-service-api","stack":"SequelizeConnectionRefusedError\n    at ConnectionManager.connect (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:92:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async ConnectionManager._connect (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:222:24)\n    at async D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:174:32\n    at async ConnectionManager.getConnection (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:197:7)\n    at async D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\sequelize\\lib\\sequelize.js:305:26\n    at async Sequelize.authenticate (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\sequelize\\lib\\sequelize.js:457:5)\n    at async DatabaseService.connect (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\utils\\database.js:7:7)","timestamp":"2025-12-15 15:18:00"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 15:18:41"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 15:18:41"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 15:18:41"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 15:18:42"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 15:18:42"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 15:18:42"}
+{"level":"info","message":"POST /api/auth/register - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:26:56"}
+{"level":"info","message":"POST /api/auth/register - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:27:52"}
+{"level":"info","message":"POST /api/auth/register - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:28:07"}
+{"level":"info","message":"User registered: omkar@gmail.com","service":"car-service-api","timestamp":"2025-12-15 15:28:07"}
+{"level":"info","message":"GET /api/auth/profile - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:31:38"}
+{"level":"info","message":"GET /api/auth/profile?accessToken=%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjYsImVtYWlsIjoib21rYXJAZ21haWwuY29tIiwicm9sZSI6ImNsaWVudCIsImlhdCI6MTc2NTc5MjY4NywiZXhwIjoxNzY1NzkzNTg3fQ.FbIF3_YEF2eCv9MX775XuZmTF91OThOUUYT_n4O-aH0%22 - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:32:35"}
+{"level":"info","message":"GET /api/auth/profile/accessToken=%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjYsImVtYWlsIjoib21rYXJAZ21haWwuY29tIiwicm9sZSI6ImNsaWVudCIsImlhdCI6MTc2NTc5MjY4NywiZXhwIjoxNzY1NzkzNTg3fQ.FbIF3_YEF2eCv9MX775XuZmTF91OThOUUYT_n4O-aH0%22 - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:32:54"}
+{"level":"info","message":"GET /api/auth/profile?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjYsImVtYWlsIjoib21rYXJAZ21haWwuY29tIiwicm9sZSI6ImNsaWVudCIsImlhdCI6MTc2NTc5MjY4NywiZXhwIjoxNzY1NzkzNTg3fQ.FbIF3_YEF2eCv9MX775XuZmTF91OThOUUYT_n4O-aH0 - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:33:21"}
+{"level":"info","message":"GET /api/auth/profile - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:41:59"}
+{"level":"error","message":"invalid token","name":"JsonWebTokenError","service":"car-service-api","stack":"JsonWebTokenError: invalid token\n    at module.exports [as verify] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\verify.js:82:17)\n    at JWTService.verifyAccessToken (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\utils\\jwt.js:57:18)\n    at authenticate (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\middleware\\auth.js:16:32)\n    at Layer.handle [as handle_request] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2025-12-15 15:41:59"}
+{"level":"info","message":"GET /api/auth/profile - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:42:26"}
+{"level":"info","message":"GET /api/auth/login%20 - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:49:39"}
+{"level":"info","message":"SIGINT received. Closing server gracefully...","service":"car-service-api","timestamp":"2025-12-15 15:50:12"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 15:50:21"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 15:50:21"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 15:50:21"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 15:50:21"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 15:50:21"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 15:50:21"}
+{"level":"info","message":"GET /api/auth/login%20 - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:50:30"}
+{"level":"info","message":"GET /api/auth/login%20 - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:51:26"}
+{"level":"info","message":"POST /api/auth/login%20 - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:51:57"}
+{"level":"info","message":"POST /api/auth/login%20 - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:52:15"}
+{"level":"info","message":"POST /api/auth/login - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 15:54:29"}
+{"level":"info","message":"User logged in: omkar@gmail.com","service":"car-service-api","timestamp":"2025-12-15 15:54:30"}
+{"level":"info","message":"POST /api/auth/logout%20 - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 16:03:02"}
+{"level":"info","message":"POST /api/auth/logout - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 16:03:41"}
+{"expiredAt":"2025-12-15T10:13:07.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","service":"car-service-api","stack":"TokenExpiredError: jwt expired\n    at D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at JWTService.verifyAccessToken (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\utils\\jwt.js:57:18)\n    at authenticate (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\middleware\\auth.js:16:32)\n    at Layer.handle [as handle_request] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\index.js:284:15","timestamp":"2025-12-15 16:03:41"}
+{"level":"info","message":"GET /api/stations%20 - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 16:05:53"}
+{"level":"info","message":"GET /api/stations - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 16:06:56"}
+{"level":"info","message":"POST /api/bookings - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 16:13:57"}
+{"level":"info","message":"POST /api/bookings - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 16:14:48"}
+{"expiredAt":"2025-12-15T10:13:07.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","service":"car-service-api","stack":"TokenExpiredError: jwt expired\n    at D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at JWTService.verifyAccessToken (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\utils\\jwt.js:57:18)\n    at authenticate (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\middleware\\auth.js:16:32)\n    at Layer.handle [as handle_request] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\index.js:284:15","timestamp":"2025-12-15 16:14:48"}
+{"level":"info","message":"POST /api/auth/login - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 16:16:47"}
+{"level":"info","message":"POST /api/auth/login - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 16:17:21"}
+{"level":"info","message":"User logged in: omkar@gmail.com","service":"car-service-api","timestamp":"2025-12-15 16:17:22"}
+{"level":"info","message":"POST /api/bookings - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 16:17:44"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 16:18:26"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 16:18:26"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 16:18:26"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 16:18:26"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 16:18:26"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 16:18:26"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 16:53:23"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 16:53:23"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 16:53:23"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 16:54:06"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 16:54:06"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 16:54:06"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 16:54:07"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 16:54:07"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 16:54:07"}
+{"level":"info","message":"GET /api/services - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 16:54:18"}
+{"level":"info","message":"GET /api/stations - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 16:56:35"}
+{"level":"info","message":"GET /api/admin/users - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 16:59:43"}
+{"level":"info","message":"GET /api/admin/users - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 17:00:25"}
+{"expiredAt":"2025-12-15T10:13:07.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","service":"car-service-api","stack":"TokenExpiredError: jwt expired\n    at D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at JWTService.verifyAccessToken (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\utils\\jwt.js:57:18)\n    at authenticate (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\middleware\\auth.js:16:32)\n    at Layer.handle [as handle_request] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2025-12-15 17:00:25"}
+{"level":"info","message":"POST /api/auth/register - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 17:01:08"}
+{"level":"info","message":"User registered: pranjal@gmail.com","service":"car-service-api","timestamp":"2025-12-15 17:01:09"}
+{"level":"info","message":"GET /api/admin/users - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 17:01:33"}
+{"level":"info","message":"GET /users/1 - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 17:04:11"}
+{"level":"info","message":"GET /users/:1 - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 17:04:33"}
+{"level":"info","message":"GET /users/ - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 17:04:51"}
+{"level":"info","message":"GET /users/ - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 17:05:09"}
+{"level":"info","message":"GET /users - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 17:05:14"}
+{"level":"info","message":"POST /api/auth/login - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 17:13:54"}
+{"level":"info","message":"User logged in: omkar@gmail.com","service":"car-service-api","timestamp":"2025-12-15 17:13:54"}
+{"level":"info","message":"POST /api/auth/logout - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 17:16:31"}
+{"expiredAt":"2025-12-15T10:13:07.000Z","level":"error","message":"jwt expired","name":"TokenExpiredError","service":"car-service-api","stack":"TokenExpiredError: jwt expired\n    at D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at JWTService.verifyAccessToken (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\utils\\jwt.js:57:18)\n    at authenticate (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\middleware\\auth.js:16:32)\n    at Layer.handle [as handle_request] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\work\\project\\deepseek\\car-service-station-app\\backend\\node_modules\\express\\lib\\router\\index.js:284:15","timestamp":"2025-12-15 17:16:31"}
+{"level":"info","message":"GET /api/stations - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 17:20:48"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 21:03:02"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 21:03:02"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 21:03:02"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 21:03:59"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 21:03:59"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 21:03:59"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:04:00"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:04:00"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 21:04:00"}
+{"level":"info","message":"GET /api/health - IP: ::1","service":"car-service-api","timestamp":"2025-12-15 21:04:04"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 21:14:26"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 21:14:26"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 21:14:26"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:26"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:26"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:26"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 21:14:41"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 21:14:41"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 21:14:41"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:41"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:41"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:41"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 21:14:45"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 21:14:45"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 21:14:45"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:45"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:45"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:45"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 21:14:48"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 21:14:48"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 21:14:48"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:48"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:48"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:48"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 21:14:59"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 21:14:59"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 21:14:59"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:59"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:59"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 21:14:59"}
+{"level":"info","message":"SIGINT received. Closing server gracefully...","service":"car-service-api","timestamp":"2025-12-15 21:18:28"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 21:18:31"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 21:18:31"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 21:18:31"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:18:31"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:18:31"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 21:18:31"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:19:02"}
+{"level":"info","message":"POST /api/auth/register - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:19:48"}
+{"level":"info","message":"POST /api/auth/register - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:19:52"}
+{"level":"info","message":"POST /api/auth/register - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:19:52"}
+{"level":"info","message":"POST /api/auth/register - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:19:53"}
+{"level":"info","message":"POST /api/auth/register - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:19:53"}
+{"level":"info","message":"POST /api/auth/register - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:20:07"}
+{"level":"info","message":"POST /api/auth/register - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:20:18"}
+{"level":"info","message":"User registered: omkardile@gmail.com","service":"car-service-api","timestamp":"2025-12-15 21:20:18"}
+{"level":"info","message":"GET /api/services - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:20:23"}
+{"level":"info","message":"GET /api/stations - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:20:26"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:20:35"}
+{"level":"info","message":"User logged in: omkardile@gmail.com","service":"car-service-api","timestamp":"2025-12-15 21:20:35"}
+{"level":"info","message":"GET /api/services - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:20:37"}
+{"level":"info","message":"GET /api/stations - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:20:41"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 21:22:40"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 21:22:40"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 21:22:40"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:22:40"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:22:40"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 21:22:40"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 21:22:42"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 21:22:42"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 21:22:42"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:22:42"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:22:42"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 21:22:42"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 21:22:59"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 21:22:59"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 21:22:59"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:22:59"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 21:22:59"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 21:23:01"}
+{"level":"info","message":"GET /api/stations - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:26:56"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:27:51"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:27:56"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:28:02"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:28:09"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:28:28"}
+{"level":"info","message":"User logged in: omkardile@gmail.com","service":"car-service-api","timestamp":"2025-12-15 21:28:28"}
+{"level":"info","message":"GET /api/stations - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:28:28"}
+{"level":"info","message":"GET /api/services/station/1 - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 21:28:32"}
+{"level":"info","message":"SIGINT received. Closing server gracefully...","service":"car-service-api","timestamp":"2025-12-15 23:13:53"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 23:13:56"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 23:13:56"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 23:13:56"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 23:13:56"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 23:13:56"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 23:13:58"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:14:34"}
+{"level":"info","message":"User logged in: omkardile@gmail.com","service":"car-service-api","timestamp":"2025-12-15 23:14:34"}
+{"level":"info","message":"GET /api/stations - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:14:35"}
+{"level":"info","message":"GET /api/bookings - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:14:44"}
+{"level":"info","message":"GET /api/services/station/2 - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:14:49"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:15:14"}
+{"level":"info","message":"User logged in: omkardile@gmail.com","service":"car-service-api","timestamp":"2025-12-15 23:15:15"}
+{"level":"info","message":"GET /api/stations - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:15:15"}
+{"level":"info","message":"GET /api/bookings - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:15:19"}
+{"level":"info","message":"GET /api/services/station/1 - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:15:23"}
+{"level":"info","message":"POST /api/bookings - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:15:46"}
+{"level":"info","message":"POST /api/bookings - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:16:18"}
+{"level":"info","message":"POST /api/bookings - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:16:32"}
+{"level":"info","message":"POST /api/bookings - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:16:55"}
+{"level":"info","message":"POST /api/bookings - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:17:37"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"car-service-api","timestamp":"2025-12-15 23:18:08"}
+{"level":"info","message":"🌐 Environment: development","service":"car-service-api","timestamp":"2025-12-15 23:18:08"}
+{"level":"info","message":"🔗 Client URL: http://localhost:8081","service":"car-service-api","timestamp":"2025-12-15 23:18:08"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 23:18:08"}
+{"level":"info","message":"Database connected successfully","service":"car-service-api","timestamp":"2025-12-15 23:18:08"}
+{"level":"info","message":"Database synced successfully","service":"car-service-api","timestamp":"2025-12-15 23:18:09"}
+{"level":"info","message":"POST /api/bookings - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:18:10"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:18:48"}
+{"level":"info","message":"User logged in: omkardile@gmail.com","service":"car-service-api","timestamp":"2025-12-15 23:18:48"}
+{"level":"info","message":"GET /api/stations - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:18:48"}
+{"level":"info","message":"GET /api/services/station/1 - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:18:50"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:19:29"}
+{"level":"info","message":"User logged in: omkardile@gmail.com","service":"car-service-api","timestamp":"2025-12-15 23:19:29"}
+{"level":"info","message":"GET /api/stations - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:19:29"}
+{"level":"info","message":"GET /api/services/station/2 - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:19:30"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:21:25"}
+{"level":"info","message":"User logged in: omkardile@gmail.com","service":"car-service-api","timestamp":"2025-12-15 23:21:25"}
+{"level":"info","message":"GET /api/stations - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:21:25"}
+{"level":"info","message":"GET /api/services/station/1 - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:21:26"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:24:20"}
+{"level":"info","message":"User logged in: omkardile@gmail.com","service":"car-service-api","timestamp":"2025-12-15 23:24:20"}
+{"level":"info","message":"GET /api/stations - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:24:21"}
+{"level":"info","message":"GET /api/services/station/1 - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:24:21"}
+{"level":"info","message":"POST /api/bookings - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:25:02"}
+{"level":"info","message":"POST /api/bookings - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:25:27"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:26:44"}
+{"level":"info","message":"User logged in: omkardile@gmail.com","service":"car-service-api","timestamp":"2025-12-15 23:26:44"}
+{"level":"info","message":"GET /api/stations - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:26:44"}
+{"level":"info","message":"GET /api/services/station/1 - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:26:45"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:27:40"}
+{"level":"info","message":"User logged in: omkardile@gmail.com","service":"car-service-api","timestamp":"2025-12-15 23:27:41"}
+{"level":"info","message":"GET /api/stations - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:27:41"}
+{"level":"info","message":"GET /api/services/station/1 - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:27:42"}
+{"level":"info","message":"POST /api/bookings - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:28:10"}
+{"level":"info","message":"Booking created: 1 by user 8","service":"car-service-api","timestamp":"2025-12-15 23:28:10"}
+{"level":"info","message":"GET /api/bookings - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:28:13"}
+{"level":"info","message":"GET /api/chat/1 - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:28:16"}
+{"level":"info","message":"Socket connected: O3Q75NSQFZ-dJ7YFAAAB","service":"car-service-api","timestamp":"2025-12-15 23:28:16"}
+{"level":"info","message":"Socket O3Q75NSQFZ-dJ7YFAAAB joined booking-1","service":"car-service-api","timestamp":"2025-12-15 23:28:17"}
+{"level":"info","message":"Socket disconnected: O3Q75NSQFZ-dJ7YFAAAB","service":"car-service-api","timestamp":"2025-12-15 23:28:21"}
+{"level":"info","message":"GET /api/chat/1 - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:28:24"}
+{"level":"info","message":"Socket connected: ecwLAVRq9xkhd9WGAAAD","service":"car-service-api","timestamp":"2025-12-15 23:28:24"}
+{"level":"info","message":"Socket ecwLAVRq9xkhd9WGAAAD joined booking-1","service":"car-service-api","timestamp":"2025-12-15 23:28:24"}
+{"level":"info","message":"Message sent to booking-1","service":"car-service-api","timestamp":"2025-12-15 23:28:28"}
+{"level":"info","message":"Message sent to booking-1","service":"car-service-api","timestamp":"2025-12-15 23:28:35"}
+{"level":"info","message":"Socket disconnected: ecwLAVRq9xkhd9WGAAAD","service":"car-service-api","timestamp":"2025-12-15 23:28:37"}
+{"level":"info","message":"POST /api/auth/login - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:32:38"}
+{"level":"info","message":"User logged in: omkardile@gmail.com","service":"car-service-api","timestamp":"2025-12-15 23:32:38"}
+{"level":"info","message":"GET /api/stations - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:32:39"}
+{"level":"info","message":"GET /api/bookings - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:32:41"}
+{"level":"info","message":"GET /api/services/station/2 - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:32:50"}
+{"level":"info","message":"GET /api/services/station/1 - IP: ::ffff:192.168.1.42","service":"car-service-api","timestamp":"2025-12-15 23:32:52"}

@@ -14,7 +14,7 @@ const createBookingValidation = [
   body('vehicleDetails.make').notEmpty().withMessage('Vehicle make is required'),
   body('vehicleDetails.model').notEmpty().withMessage('Vehicle model is required'),
   body('vehicleDetails.year').isInt({ min: 1900, max: new Date().getFullYear() + 1 }).withMessage('Valid year is required'),
-  body('vehicleDetails.licensePlate').notEmpty().withMessage('License plate is required'),
+  //body('vehicleDetails.licensePlate').notEmpty().withMessage('License plate is required'),
   body('specialInstructions').optional().isString(),
 ];
 
